@@ -1,0 +1,50 @@
+{% extends 'public/public_template.html' %}
+<!-- below the import of macros--> 
+
+
+{% block title %} access {% endblock %} 
+
+{% block main %}
+<div class="container">
+  <div class="row">
+    <div class="col">
+
+
+<form action="/access" method="POST">
+
+  <div class="form-group">
+    <label>Password</label>
+    <input type="text" class="form-control" id="password" name="password" placeholder="insert password ">
+  </div>
+
+
+ 
+
+
+  <button type="submit" class="btn btn-primary">Access</button>
+  
+
+
+
+
+
+</form>
+
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+{% endblock %}
